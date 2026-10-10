@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>פשוטלפון | פשוט טלפון ורק טלפון</title>
+  <meta name="description" content="פשוטלפון - מדריך וקטלוג למציאת טלפונים פשוטים, אמינים וללא הסחות דעת בישראל. פשוט טלפון ורק טלפון.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       Header & Navigation
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <a href="#home" class="brand" aria-label="פשוטלפון - דף הבית">
+        <img src="assets/images/logo.svg" alt="לוגו פשוטלפון" class="brand-logo" width="38" height="38">
+        <div class="brand-text">
+          <span class="brand-title">פשוטלפון</span>
+          <span class="brand-slogan">פשוט טלפון ורק טלפון</span>
+        </div>
+      </a>
+
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <a href="#home" class="nav-link active">ראשי</a>
+        <a href="#catalog" class="nav-link">קטלוג המכשירים</a>
+        <a href="recommended.html" class="nav-link">רשימת המומלצים</a>
+        <a href="#questionnaire" class="nav-link">שאלון התאמה</a>
+        <a href="#glossary" class="nav-link">מדריך מושגים</a>
+        <a href="#about" class="nav-link">אודות</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Hero Section (דף הבית)
+       ========================================================================= -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="hero-badge">
+        <span>✨</span>
+        <span>בחירה פשוטה, ממוקדת ושקופה</span>
+      </div>
+      <h1 class="hero-title">פשוטלפון</h1>
+      <p class="hero-slogan">פשוט טלפון ורק טלפון</p>
+      <p class="hero-description">
+        המדריך שלכם להכרת טלפונים פשוטים ובחירת המכשיר המתאים ביותר לצרכים שלכם.<br>
+        לאנשים שמחפשים פחות הסחות דעת, פחות אפליקציות, ומכשיר שפשוט עובד.
+      </p>
+      <div class="hero-actions">
+        <a href="#catalog" class="btn btn-primary">
+          <span>מעבר לקטלוג המכשירים</span>
+          <span aria-hidden="true">←</span>
+        </a>
+        <a href="#questionnaire" class="btn btn-secondary">
+          <span>שאלון התאמה אישי</span>
+        </a>
+        <a href="#glossary" class="btn btn-secondary" style="border: none;">
+          <span>מדריך מושגים טכניים</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Main Content Area
+       ========================================================================= -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- הודעת שקיפות נתונים / דוגמה -->
+      <aside class="notice-banner" role="note" aria-label="הודעת נתוני דוגמה">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z" clip-rule="evenodd" />
+        </svg>
+        <div class="notice-banner-text">
+          <strong>שקיפות מלאה: נתוני תבנית להמחשה</strong>
+          המכשירים המופיעים כרגע הינם תבניות דוגמה לצורך המחשת המערכת והשאלון. המשתמש יספק בהמשך את רשימת הדגמים והתמונות הסופיים בקובצי ה-Markdown.
+        </div>
+      </aside>
+
+      <!-- =====================================================================
+           3.2 קטלוג המכשירים + 3.3 חיפוש וסינון
+           ===================================================================== -->
+      <section class="section-block" id="catalog">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span>📱</span>
+            <span>קטלוג המכשירים</span>
+          </h2>
+          <p class="section-subtitle">
+            עיינו במכשירים, השוו מפרטים, או לחצו על כרטיס לצפייה במפרט המלא. פתיחת כרטיס תציג את פרטיו ותסגור כרטיס קודם.
+          </p>
+        </div>
+
+        <!-- סרגל חיפוש וסינון -->
+        <div class="catalog-toolbar">
+          <div class="search-box">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="search" id="search-input" class="search-input" placeholder="חיפוש לפי שם דגם, יצרן או תכונה (למשל: דגם, פנס, מגע)..." aria-label="חיפוש בקטלוג המכשירים">
+          </div>
+
+          <div class="filters-row">
+            <div class="filter-group">
+              <label for="filter-phone-type" class="filter-label">סוג מכשיר</label>
+              <select id="filter-phone-type" class="filter-select">
+                <option value="all">כל הסוגים</option>
+                <option value="טלפון טיפש">טלפון טיפש (Dumb Phone)</option>
+                <option value="פיצ'ר פון">פיצ'ר פון (Feature Phone)</option>
+                <option value="סמארטפון מצומצם">סמארטפון מצומצם (Minimalist)</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-clean-level" class="filter-label">רמת נקיות</label>
+              <select id="filter-clean-level" class="filter-select">
+                <option value="all">כל הרמות</option>
+                <option value="נקי לחלוטין">נקי לחלוטין</option>
+                <option value="נקי">נקי (יש גם פתוח יותר)</option>
+                <option value="מנוקה">מנוקה (סמארטפון מסונן)</option>
+              </select>
+            </div>
+
+            <div class="filter-group">
+              <label for="filter-touch" class="filter-label">מסך מגע (כולם עם מקשים)</label>
+              <select id="filter-touch" class="filter-select">
+                <option value="all">הכל (ללא הגבלה)</option>
+                <option value="no_touch">מקשים בלבד (ללא מגע)</option>
+                <option value="touch">משולב מקשים ומסך מגע</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="toolbar-actions">
+            <span class="results-count" id="results-count">מציג מכשירים...</span>
+            <button type="button" id="btn-reset-filters" class="btn-reset-filters">
+              <span>איפוס מסננים</span>
+            </button>
+          </div>
+
+          <!-- תגיות מסננים פעילים -->
+          <div class="active-filters-chips" id="active-chips-container" aria-live="polite"></div>
+        </div>
+
+        <!-- רשת כרטיסי המכשירים -->
+        <div class="phones-grid" id="phones-grid">
+          <!-- הכרטיסים מרונדרים דינמית דרך JavaScript -->
+        </div>
+
+        <!-- מצב ריק כאשר אין תוצאות -->
+        <div class="empty-state-box" id="catalog-empty" style="display: none;">
+          <div class="empty-state-icon">🔍</div>
+          <h3 class="empty-state-title">לא נמצאו מכשירים מתאימים</h3>
+          <p class="empty-state-desc">
+            לא נמצאו מכשירים התואמים לחיפוש או למסננים שבחרת. באפשרותך לאפס את הסינון ולנסות שוב.
+          </p>
+          <button type="button" id="btn-empty-reset" class="btn btn-primary btn-sm">
+            איפוס החיפוש והמסננים
+          </button>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           3.4 שאלון התאמה
+           ===================================================================== -->
+      <section class="section-block" id="questionnaire">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span>🎯</span>
+            <span>שאלון התאמה אישי</span>
+          </h2>
+          <p class="section-subtitle">
+            כל המכשירים באתר כוללים מקלדת מקשים פיזית. ענו על שאלות קצרות: המערכת תסנן תחילה לפי <strong>תנאי חובה</strong> (דרישות סף), ולאחר מכן תדרג את המכשירים לפי <strong>העדפותיכם</strong>.
+          </p>
+        </div>
+
+        <div class="quiz-card">
+          <form id="quiz-form" onsubmit="return false;">
+            
+            <!-- שלב 1: תנאי חובה -->
+            <div style="margin-bottom: 2rem;">
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: #991b1b; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                <span>🛡️</span>
+                <span>חלק א': תנאי חובה (דרישות סף מחייבות)</span>
+              </h3>
+              <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 1.5rem;">
+                מכשיר שלא יעמוד בתנאים אלה לא יוצג בתוצאות כלל.
+              </p>
+
+              <!-- שאלה 1: סוג מכשיר נדרש -->
+              <div class="quiz-question-group">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-must">תנאי חובה</span>
+                  <span>1. האם יש סוג מכשיר מוגדר שאתה מחייב?</span>
+                </div>
+                <div class="quiz-question-desc">בחר האם יש הגבלה מוחלטת על סוג המכשיר:</div>
+                <div class="options-grid">
+                  <label class="option-card">
+                    <input type="radio" name="must_phone_type" value="any" checked>
+                    <span>הכל מתאים (ללא מגבלה)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_phone_type" value="dumb_only">
+                    <span>חייב טלפון טיפש (ללא אינטרנט/אפליקציות; יכול לכלול מוזיקה ומצלמה)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_phone_type" value="feature_only">
+                    <span>חייב פיצ'ר פון בלבד</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_phone_type" value="smart_only">
+                    <span>חייב סמארטפון מקשים מצומצם</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- שאלה 2: רמת נקיות מחייבת -->
+              <div class="quiz-question-group">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-must">תנאי חובה</span>
+                  <span>2. רמת נקיות מחייבת (מניעת גרסאות פתוחות)</span>
+                </div>
+                <div class="quiz-question-desc">בחר את מידת הנקיות המינימלית הנדרשת עבורך:</div>
+                <div class="options-grid">
+                  <label class="option-card">
+                    <input type="radio" name="must_clean_level" value="any" checked>
+                    <span>כל רמת נקיות מתאימה</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_clean_level" value="strictly_clean">
+                    <span>חייב "נקי לחלוטין" בלבד (אין גרסה פתוחה)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_clean_level" value="no_cleansed">
+                    <span>נקי לחלוטין או נקי (ללא סמארטפונים מנוקים)</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- שאלה 3: מסך מגע -->
+              <div class="quiz-question-group">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-must">תנאי חובה</span>
+                  <span>3. מסך מגע (כל המכשירים כוללים מקשים)</span>
+                </div>
+                <div class="quiz-question-desc">האם אתה מעוניין או נמנע ממסך מגע משולב?</div>
+                <div class="options-grid">
+                  <label class="option-card">
+                    <input type="radio" name="must_touch" value="any" checked>
+                    <span>לא משנה (כולל או ללא מגע)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_touch" value="no_touch">
+                    <span>מקשים בלבד (ללא מסך מגע כלל)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_touch" value="with_touch">
+                    <span>חייב לשלב מסך מגע עם המקשים</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- שאלה 4: הגבלת מולטימדיה (חובה לשיחות והודעות בלבד) -->
+              <div class="quiz-question-group">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-must">תנאי חובה</span>
+                  <span>4. הגבלת מולטימדיה: האם חובה שיחות והודעות בלבד?</span>
+                </div>
+                <div class="quiz-question-desc">אם תבחר באפשרות זו, כל מכשיר שיש בו נגן מוזיקה או מצלמה ייפסל ולא יוצג:</div>
+                <div class="options-grid">
+                  <label class="option-card">
+                    <input type="radio" name="must_calls_only" value="any" checked>
+                    <span>לא מחייב (המכשיר יכול לכלול מוזיקה, מצלמה וכו')</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="must_calls_only" value="strict">
+                    <span>חובה שיחות והודעות בלבד (ללא נגן מוזיקה וללא מצלמה)</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- שאלה 5: תקציב מקסימלי -->
+              <div class="quiz-question-group" style="border-bottom: none; margin-bottom: 0; padding-bottom: 0;">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-must">תנאי חובה</span>
+                  <span>5. תקציב מקסימלי (תקרת מחיר)</span>
+                </div>
+                <div class="quiz-question-desc">מכשירים שמחירם עולה על הסכום ייפסלו:</div>
+                <div style="max-width: 300px;">
+                  <select id="must_budget_select" class="filter-select" style="width: 100%;">
+                    <option value="none">ללא הגבלת תקציב</option>
+                    <option value="150">עד 150 ₪</option>
+                    <option value="350">עד 350 ₪</option>
+                    <option value="800">עד 800 ₪</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- שלב 2: העדפות אישיות -->
+            <div style="margin-top: 2.5rem; padding-top: 2rem; border-top: 2px dashed var(--color-border);">
+              <h3 style="font-size: 1.25rem; font-weight: 700; color: #1e40af; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                <span>⭐</span>
+                <span>חלק ב': העדפות אישיות (לדירוג התוצאות)</span>
+              </h3>
+              <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 1.5rem;">
+                תכונות אלו יעזרו לדרג ולהבליט את המכשירים המתאימים ביותר מבין אלו שעמדו בתנאי החובה.
+              </p>
+
+              <!-- העדפה 1: רמת פשטות מועדפת -->
+              <div class="quiz-question-group">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-pref">העדפה</span>
+                  <span>6. לאיזה סגנון שימוש אתה שואף?</span>
+                </div>
+                <div class="options-grid">
+                  <label class="option-card">
+                    <input type="radio" name="pref_simplicity" value="minimal" checked>
+                    <span>שיחות והודעות בלבד, מינימום מוחלט</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="pref_simplicity" value="tools">
+                    <span>ללא אינטרנט, אך עם מוזיקה/מצלמה/פנס מקומיים</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="radio" name="pref_simplicity" value="neutral">
+                    <span>פתוח לכל אפשרות מתאימה</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- העדפה 2: תכונות מועדפות -->
+              <div class="quiz-question-group">
+                <div class="quiz-question-title">
+                  <span class="quiz-badge-pref">העדפה</span>
+                  <span>7. תכונות נוספות שהיית שמח שיהיו:</span>
+                </div>
+                <div class="options-grid">
+                  <label class="option-card">
+                    <input type="checkbox" id="pref_camera_check">
+                    <span>מצלמה (צילום תמונות)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="checkbox" id="pref_music_check">
+                    <span>רדיו או נגן שמע</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="checkbox" id="pref_strict_clean_check">
+                    <span>עדיפות מיוחדת למכשיר "נקי לחלוטין"</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="checkbox" id="pref_memory_card_check">
+                    <span>תמיכה בכרטיס זיכרון (MicroSD)</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="checkbox" id="pref_battery_check">
+                    <span>סוללה ארוכת טווח במיוחד</span>
+                  </label>
+                  <label class="option-card">
+                    <input type="checkbox" id="pref_storage_check">
+                    <span>נפח מוגדל להודעות SMS</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- כפתורי פעולה -->
+            <div class="quiz-nav-row">
+              <button type="button" id="btn-run-quiz" class="btn btn-primary">
+                <span>חשב התאמה והצג תוצאות</span>
+                <span aria-hidden="true">🎯</span>
+              </button>
+              <button type="button" id="btn-reset-quiz" class="btn btn-secondary">
+                <span>נקה שאלון</span>
+              </button>
+            </div>
+          </form>
+
+          <!-- אזור תוצאות השאלון -->
+          <div id="quiz-results" class="quiz-results-box" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           3.5 מדריך מושגים טכניים
+           ===================================================================== -->
+      <section class="section-block" id="glossary">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span>📖</span>
+            <span>מדריך מושגים טכניים</span>
+          </h2>
+          <p class="section-subtitle">
+            הסברים פשוטים, ברורים ובלתי תלויים על המונחים המופיעים במפרטי המכשירים.
+          </p>
+        </div>
+
+        <div class="glossary-grid" id="glossary-grid">
+          <!-- מרונדר דינמית מקובצי המושגים ב-JavaScript -->
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           3.6 אודות
+           ===================================================================== -->
+      <section class="section-block" id="about">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span>ℹ️</span>
+            <span>אודות פשוטלפון</span>
+          </h2>
+          <p class="section-subtitle">
+            פשוט טלפון ורק טלפון
+          </p>
+        </div>
+
+        <div class="about-card">
+          <p>
+            אתר <strong>פשוטלפון</strong> הוקם במטרה לסייע למבקרים להכיר טלפונים פשוטים ולבחור מכשיר שמתאים בדיוק לצורכיהם — בין אם מדובר בטלפון לשיחות בלבד, מכשיר ללא הסחות דעת, או טלפון קל ונוח לשימוש יומיומי. כל המכשירים המופיעים באתר הינם טלפוני מקשים פיזיים.
+          </p>
+          <p>
+            האתר נבנה ומתופעל על ידי חובב התחום בהתנדבות מלאה ואין שום אחריות על המידע בו ישירה או עקיפה.
+          </p>
+          <p style="padding: 0.75rem 1rem; background-color: var(--color-surface-hover); border-radius: var(--radius-sm); border-right: 3px solid var(--color-primary); font-weight: 500;">
+            חסר טלפון / מידע חסר / מידע שגוי? צרו איתנו קשר במייל: <a href="mailto:info@pashutphone.example.com" style="color: var(--color-primary-dark); font-weight: 600; text-decoration: underline;">info@pashutphone.example.com</a>
+          </p>
+          <p>
+            <strong>חשוב לדעת:</strong> פשוטלפון הינו אתר מידע, קטלוג והדרכה בלבד. האתר אינו חנות מסחרית, אינו מוכר מכשירים בעצמו ואינו גובה תשלומים. כל המידע מוצג בשקיפות מרבית תוך הפרדה ברורה בין מידע מאומת להערכות בלבד.
+          </p>
+
+          <div class="about-highlights">
+            <div class="about-highlight-box">
+              <h4>🔒 פרטיות מלאה</h4>
+              <p>שאלון ההתאמה פועל 100% מקומית בדפדפן שלכם. שום תשובה או מידע אישי אינם נשלחים לשרת כלשהו.</p>
+            </div>
+            <div class="about-highlight-box">
+              <h4>🎯 שקיפות ללא ניחושים</h4>
+              <p>אם פרט מסוים או מחיר אינם ידועים בוודאות, אנו מציינים זאת מפורשות ולא ממציאים נתונים.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">פשוטלפון</div>
+      <div class="footer-slogan">פשוט טלפון ורק טלפון</div>
+      <nav class="footer-nav" aria-label="ניווט תחתון">
+        <a href="#home">ראשי</a>
+        <a href="#catalog">קטלוג המכשירים</a>
+        <a href="recommended.html">רשימת המומלצים</a>
+        <a href="#questionnaire">שאלון התאמה</a>
+        <a href="#glossary">מדריך מושגים</a>
+        <a href="#about">אודות</a>
+      </nav>
+      <div class="footer-copy">
+        פשוטלפון © 2026 | אתר סטטי בעברית מלאה | פשוט טלפון ורק טלפון
+      </div>
+    </div>
+  </footer>
+
+  <!-- טעינת סקריפטים (ללא שום כלי בנייה, תמיכה מלאה ב-GitHub Pages ובפרוטוקול file://) -->
+  <script src="assets/js/sample-data.js"></script>
+  <script src="assets/js/data-loader.js"></script>
+  <script src="assets/js/questionnaire.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

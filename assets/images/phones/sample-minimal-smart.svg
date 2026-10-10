@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280" fill="none">
+  <rect width="200" height="280" rx="16" fill="#f8fafc"/>
+  <!-- Compact minimalist smartphone body -->
+  <rect x="46" y="20" width="108" height="240" rx="16" fill="#18181b" stroke="#3f3f46" stroke-width="2"/>
+  <!-- Bezel -->
+  <rect x="52" y="32" width="96" height="216" rx="10" fill="#09090b"/>
+  <!-- Display: Minimal monochrome / e-ink aesthetic -->
+  <rect x="56" y="44" width="88" height="192" rx="6" fill="#27272a"/>
+  <!-- Minimalist interface UI -->
+  <text x="100" y="80" font-family="sans-serif" font-size="24" font-weight="300" fill="#fafafa" text-anchor="middle">09:41</text>
+  <text x="100" y="98" font-family="sans-serif" font-size="9" fill="#a1a1aa" text-anchor="middle">יום שלישי, 10 באוקטובר</text>
+  <line x1="68" y1="114" x2="132" y2="114" stroke="#52525b" stroke-width="1"/>
+  <!-- Clean text list menu -->
+  <g font-family="sans-serif" font-size="11" fill="#e4e4e7" text-anchor="start">
+    <text x="72" y="140">שיחות טלפון</text>
+    <text x="72" y="165">הודעות</text>
+    <text x="72" y="190">לוח שנה</text>
+    <text x="72" y="215">שעון מעורר</text>
+  </g>
+  <!-- Speaker and selfie sensor slit -->
+  <rect x="90" y="26" width="20" height="2" rx="1" fill="#71717a"/>
+</svg>

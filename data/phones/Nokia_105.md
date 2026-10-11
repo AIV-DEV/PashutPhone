@@ -1,13 +1,13 @@
 ---
 id: "nokia-105"
 manufacturer: "Nokia"
-model: "105 4g"
+model: "105"
 phone_type: "טלפון טיפש"
 has_touch_screen: false
 clean_level: "נקי"
 clean_level_details: "ניתן להשיג מכשיר מסונן, אך ניתן להשיג גם את אותו הדגם בדיוק בגרסאות פתוחות יותר - לעיתים אפילו עם דפדפן"
 operating_system: "Mocor"
-message_storage: "כמה מאותת בלבד. 300-500."
+message_storage: "כמה מאות בלבד. 300-500."
 has_memory_card: true
 memory_card: "אין תמיכה בכרטיס זיכרון"
 is_recommended: false

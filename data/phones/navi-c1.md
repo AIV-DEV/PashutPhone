@@ -27,7 +27,7 @@ price:
   source: "הערכה כללית להמחשה בלבד"
   checked_date: "2026-10-01"
 purchase_links: [https://navi-phone.com]
-image: "assets/images/phones/navi_c1.png"
+image: "https://aiv-dev.com/PashutPhone/assets/images/phones/navi_c1.png"
 image_alt: "navi c1"
 is_sample: true
 sample_notice: "מדובר בדגם מעולה, המכיל שיפורים ופונקציות רבות למשתמשי הטלפון הפשוט. מומלץ לעיין באתר הרשמי"

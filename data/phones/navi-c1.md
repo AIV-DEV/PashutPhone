@@ -26,8 +26,8 @@ price:
   certainty: "טווח משוער"
   source: "הערכה כללית להמחשה בלבד"
   checked_date: "2026-10-01"
-purchase_links: [https://navi-phone.com]
-image: "https://aiv-dev.com/PashutPhone/assets/images/phones/navi_c1.png"
+purchase_links: [https://www.hmd.com/en_int/nokia-105?sku=1GF019CPA2L05]
+image: "https://aiv-dev.com/PashutPhone/assets/images/phones/nokia-105-4g.png"
 image_alt: "navi c1"
 is_sample: true
 sample_notice: "מדובר בדגם מעולה, המכיל שיפורים ופונקציות רבות למשתמשי הטלפון הפשוט. מומלץ לעיין באתר הרשמי"
